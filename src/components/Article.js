@@ -9,10 +9,10 @@ export default class Article extends PureComponent {
           <h1>Most important heading here</h1>
         </header>
         <nav>
-          <a href="/AAAA/">AAAA</a>
-          <a href="/BBBB/">BBBB</a>
-          <a href="/CCCC/">CCCC</a>
-          <a href="/DDDD/">DDDD</a>
+          <a href="/AAAA/" target="_blank">AAAA</a>
+          <a href="/BBBB/" target="_blank">BBBB</a>
+          <a href="/CCCC/" target="_blank">CCCC</a>
+          <a href="/DDDD/" target="_blank">DDDD</a>
         </nav>
         <article>
           <header>
@@ -24,8 +24,8 @@ export default class Article extends PureComponent {
             </p>
         </article>
         <aside>
-          <h4>Epcot Center</h4>
-          <p>The Epcot Center is a theme park in Disney World, Florida.</p>
+          <h4>side content</h4>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
         </aside>
         <footer>
           <p>Posted by: Yoonji Oh</p>
