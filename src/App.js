@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Article from './components/Article';
 import Transition from './components/Transition';
+import Animation from './components/Animation';
+import SassTest from './components/SassTest'
 
 class App extends Component {
   render() {
@@ -8,6 +10,8 @@ class App extends Component {
     <div>
       <Article />
       <Transition />
+      <Animation />
+      <SassTest />
     </div>
     );
   }
