@@ -1,7 +1,38 @@
-$font-stack:    Helvetica, sans-serif;
-$primary-color: #333;
+//@import 'utils';
 
-body {
+$font-stack:    Helvetica, sans-serif;
+$primary-color: red;
+$size: 100px;
+
+@mixin place-at-center() {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section {
+  float: left;
+  border-color: black;
   font: 100% $font-stack;
   color: $primary-color;
+
+}
+
+.box {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: $size;
+  height: $size;
+  background-color: dodgerblue;
+
+  &:hover {
+    background: red;
+  }
+  &:active {
+    background: yellow;
+  }
+
+  @include place-at-center();
+
 }
