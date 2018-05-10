@@ -1,0 +1,68 @@
+div .red {
+    float: left;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 4s;/* Safari */
+    transition: width 2s, height 4s;
+    transition-delay: 1s;
+}
+
+div .red:hover {
+  width: 300px;
+}
+
+div .dodgerblue {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  background: dodgerblue;
+  -webkit-transition: width 2s, height 4s, -webkit-transform 2s; /* safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div .dodgerblue:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotateX(180deg); /* Safari */
+  transform: rotateX(180deg);
+}
+
+div .grey {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  background: grey;
+  -webkit-transition: width 2s, height 4s, -webkit-transform 2s; /* safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div .grey:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotateY(180deg); /* Safari */
+  transform: rotateY(180deg);
+}
+
+div .tomato {
+  float: left;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 100px;
+  height: 100px;
+  background: tomato;
+  -webkit-transition: width 2s, height 4s, -webkit-transform 2s; /* safari */
+  transition: width 2s, height 2s, transform 2s;
+}
+
+div .tomato:hover {
+  width: 300px;
+  height: 300px;
+  -webkit-transform: rotate(180deg); /* Safari */
+  transform: rotate(180deg);
+}
