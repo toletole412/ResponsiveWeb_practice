@@ -1,0 +1,88 @@
+div .changeColor {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    -webkit-animation-name: changeColor; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: changeColor;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes changeColor {
+    from {background-color: yellow;}
+    to {background-color: mediumseagreen;}
+}
+
+/* Standard syntax */
+@keyframes changeColor {
+    from {background-color: yellow;}
+    to {background-color: mediumseagreen;}
+}
+
+div .fourColors {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  -webkit-animation-name: fourColors; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: fourColors;
+  animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes fourColorsColor {
+    0% {background-color: yellow;}
+    25%{background-color: mediumseagreen;}
+    50%{background-color: tomato;}
+    100%{background-color: grey;}
+}
+
+/* Standard syntax */
+@keyframes fourColors {
+    0% {background-color: yellow;}
+    25%{background-color: mediumseagreen;}
+    50%{background-color: tomato;}
+    100%{background-color: grey;}
+}
+
+
+div .move {
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  position: relative;
+  -webkit-animation: mymove 5s infinite; /* safari */
+  animation: mymove 5s infinite;
+}
+
+.move #div1 {-webkit-animation-timing-function: linear;}
+.move #div2 {-webkit-animation-timing-function: ease;}
+.move #div3 {-webkit-animation-timing-function: ease-in;}
+.move #div4 {-webkit-animation-timing-function: ease-out;}
+.move #div5 {-webkit-animation-timing-function: ease-in-out;}
+
+.move #div1 {animation-timing-function: linear;}
+.move #div2 {animation-timing-function: ease;}
+.move #div3 {animation-timing-function: ease-in;}
+.move #div4 {animation-timing-function: ease-out;}
+.move #div5 {animation-timing-function: ease-in-out;}
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
