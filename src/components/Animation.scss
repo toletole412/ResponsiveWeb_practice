@@ -63,6 +63,7 @@ div .move {
   position: relative;
   -webkit-animation: mymove 5s infinite; /* safari */
   animation: mymove 5s infinite;
+  animation-delay: 4s;
 }
 
 .move #div1 {-webkit-animation-timing-function: linear;}

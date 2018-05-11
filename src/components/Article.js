@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import './Article.css';
+import './Article.scss';
 
 export default class Article extends PureComponent {
   render() {

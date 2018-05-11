@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import './Animation.css';
+import './Animation.scss';
 
 export default class Animation extends PureComponent {
   render() {

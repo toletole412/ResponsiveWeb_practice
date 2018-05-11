@@ -11,6 +11,7 @@ $size: 100px;
 }
 
 section {
+  padding: 20px;
   float: left;
   border-color: black;
   font: 100% $font-stack;
@@ -35,4 +36,37 @@ section {
 
   @include place-at-center();
 
+}
+
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 25%;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
+
+.success {
+  @extend %message-shared;
+  border-color: green;
+}
+
+.error {
+  @extend %message-shared;
+  border-color: red;
+}
+
+.warning {
+  @extend %message-shared;
+  border-color: yellow;
+}
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .message, .success, .error, .warning {
+    width:100%;
+  }
 }

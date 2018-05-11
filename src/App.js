@@ -3,7 +3,6 @@ import Article from './components/Article';
 import Transition from './components/Transition';
 import Animation from './components/Animation';
 import SassTest from './components/SassTest';
-import ResponsiveButton from './components/ResponsiveButton';
 
 class App extends Component {
   render() {
@@ -13,7 +12,6 @@ class App extends Component {
       <Transition />
       <Animation />
       <SassTest />
-      <ResponsiveButton />
     </div>
     );
   }

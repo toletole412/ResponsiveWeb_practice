@@ -1,5 +1,5 @@
 import React, {PureComponent} from 'react';
-import './Transition.css';
+import './Transition.scss';
 
 export default class Transition extends PureComponent {
   render() {
