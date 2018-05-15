@@ -3,6 +3,7 @@ import Article from './components/Article';
 import Transition from './components/Transition';
 import Animation from './components/Animation';
 import SassTest from './components/SassTest';
+import IconBar from './components/IconBar';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
       <Transition />
       <Animation />
       <SassTest />
+      <IconBar />
     </div>
     );
   }
